@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="">@ <input type="text" placeholder="content" id="inputcontent"></label>
+        <label for="">@ <input type="date" id="inputdate"></label>
+        <label for="">@ <input type="text" id="status"></label>
+        <label for="">@ <input type="text" placeholder="Usename" id="usename"></label>
+        <button type="button" onclick="save()">Submit</button>
+    </form>
+    <table border="1" style="border-collapse: collapse; width: 800px;margin-top: 20px;">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Content</th>
+                <th>Due date</th>
+                <th>Status</th>
+                <th>Assigned to</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tablebody">
+
+        </tbody>
+    </table>
+    <script src="bt4.js"></script>
+</body>
+
+</html>
